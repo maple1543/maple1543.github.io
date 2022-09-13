@@ -1,0 +1,198 @@
+/* Main setup ------------------------------------------------------------------------------------------------------ */
+@font-face {
+    font-family: 'Antipasto Demi Bold';
+    src: url('../fonts/AntipastoPro DemiBold.ttf');
+}
+
+body {
+    background: #292929;
+    font-family: 'Antipasto Demi Bold', serif;
+    margin: 0 0 0 0;
+}
+
+p {
+    margin: 0 0 0 0;
+}
+
+/* Headers setup ---------------------------------------------------------------------------------------------------- */
+header {
+    height: 64px;
+    background: #5A5A5A;
+    margin: 0 0 0 0;
+}
+
+img.nav_logo {
+    width: 42px;
+    height: 42px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+}
+
+nav.header__inner {
+    margin-left: 64px;
+    margin-right: 64px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+}
+
+a.nav_main_click {
+    color: #95FFB9;
+    font-size: 24px;
+    text-decoration: none;
+    padding-right: 16px;
+    margin: -10px 0 0 0;
+}
+
+a.nav_main {
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+    padding-right: 16px;
+    transition: 0.1s linear;
+    margin: -10px 0 0 0;
+}
+
+a.nav_main:hover {
+    color: #d4ffe4;
+    margin: -10px 0 0 0;
+}
+
+a.nav_sign {
+    background: #414141;
+    padding: 6px 8px 8px 8px;
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.1s linear;
+    margin: -10px 0 0 0;
+}
+
+a.nav_sign:hover {
+    background: #707070;
+    color: #e5ffea;
+    margin: -10px 0 0 0;
+}
+
+a.nav_right {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    padding-right: 16px;
+    transition: 0.1s linear;
+
+}
+
+a.nav_right:hover {
+    color: #d4ffe4;
+}
+
+div.right_links {
+    margin-right: 128px;
+    margin-left: auto;
+}
+
+/* Warning plate ---------------------------------------------------------------------------------------------------- */
+div.warning_develop {
+    margin-right: 64px;
+    margin-left: 64px;
+    margin-top: 16px;
+    background: #FFF495;
+    height: 64px;
+    border-radius: 16px;
+    display: flex;
+    text-align: center;
+}
+
+img.dev_logo {
+    width: 42px;
+    height: 42px;
+    padding: 11px 16px;
+}
+
+p.warning_develop {
+    color: #5A5A5A;
+    font-size: 32px;
+    padding-top: 21px;
+    padding-bottom: 16px;
+    margin: -10px 0 0 0;
+}
+
+/* Main background -------------------------------------------------------------------------------------------------- */
+div.main_block {
+    background: #5A5A5A;
+    margin: 16px 64px 0 64px;
+    border-radius: 16px;
+    padding: 16px 16px 16px 16px;
+}
+
+div.inter_block {
+    background: #414141;
+    margin: 8px 0 0 0;
+    border-radius: 12px;
+    padding: 16px 16px 16px 16px;
+}
+
+div.sub_block {
+    background: #292929;
+    border-radius: 8px;
+    padding: 16px 16px 16px 16px;
+    margin: 8px 0 0 0;
+}
+
+h1 {
+    color: #95FFB9;
+    margin: -10px 0 0 0;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 32px;
+    margin: -10px 0 0 0;
+}
+
+h3 {
+    color: #DAFFE7FF;
+    margin: -10px 0 0 0;
+    font-size: 24px;
+    font-style: inherit;
+}
+
+div.q {
+    position: relative;
+    padding-left: 8px;
+    color: white;
+    font-size: 18px;
+}
+
+div.q::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    width: 2px;
+    height: 100%;
+    background-color: #DAFFE7FF;
+}
+
+/* Other ------------------------------------------------------------------------------------------------------------ */
+div.green_line {
+    width: 512px;
+    height: 2px;
+    border-radius: 100px 100px 100px 100px;
+    background: #95FFB9;
+    margin: 8px 0 8px 0;
+}
+
+div.white_line {
+    width: 256px;
+    height: 2px;
+    border-radius: 100px 100px 100px 100px;
+    background: #ffffff;
+    margin: 8px 0 8px 0;
+}
